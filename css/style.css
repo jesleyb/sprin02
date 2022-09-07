@@ -1,0 +1,117 @@
+@charset "utf-8";
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+body
+{
+    background-color: #F3F5FC;
+}
+textarea{	
+	outline: none !important;
+}
+#caja-logo {
+	float: left;
+	width: 7.5em; /*120px*/
+	text-align: center;
+	margin-top: 1em;
+}
+button {
+	border-radius: 12px;
+	border: 1px solid #0A3871;
+	font-weight: bold;
+	font-size: 1.2em;
+	margin: 0.9em 1em;
+	padding: 6px;
+	white-space: nowrap;
+}
+#btnIniciar, #btnNuevo, #btnGuardar {
+	color: #FFFFFF;
+	background: #0A3871;
+}
+#btnIniciar:hover, #btnNuevo:hover, #btnGuardar:hover {
+	background: #D8DFE8;
+	color: #0A3871;
+}
+#btnAgregar, #btnDesistir, #btnCancelar {
+	color: #0A3871;
+	background: #D8DFE8;
+}
+#btnAgregar:hover, #btnDesistir:hover, #btnCancelar:hover {
+	color: #FFFFFF;
+	background: #0A3871;
+}
+/**********************************************************************************/
+#caja-1 {
+	padding: 10% 0px;
+}
+#caja-1 > button {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+/**********************************************************************************/
+#caja-2 {
+	display: none;
+}
+canvas {
+	display: inline-block;
+}
+#idMensaje {
+	display: inline-block;
+	font-size: 2em;
+	color: #00FF00;
+}
+#idTabla {
+	border-spacing: 20px;
+	margin-top: 20px;
+}
+.borderclass {
+	border-bottom: 2px solid #F3F5FC;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+}
+#idTeclear {
+	display: block;
+	border: none;
+	background: #F3F5FC;
+	resize: none;
+	text-transform: uppercase;
+	letter-spacing: 12px;
+	text-align: center;
+}
+/**********************************************************************************/
+#caja-3 {
+	display: none;
+	height: 92vh;
+	float: left;
+	width: 32em; /*500px*/
+	height: 100%;
+	text-align: left;
+}
+#txtEntrada {
+	width: 15em; /*460px*/
+	font-family: sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 2em;
+	line-height: 150%;
+	color: #0A3871;
+	margin-top: 2em;
+	margin-bottom: 1em;
+	border: none;
+	background: #F3F5FC;
+	resize: none;
+	text-transform: uppercase;
+}
+/**********************************************************************************/
+.restaurar {
+	clear: both;
+}
+footer {
+	text-align: center;
+	border-top: 1px dashed;
+	font-size: 0.8em;
+}
